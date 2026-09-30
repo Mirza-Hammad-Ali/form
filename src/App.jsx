@@ -7,7 +7,6 @@ function App() {
     e.preventDefault();
     console.log(name);
   }
-
   return (
     <form onSubmit={handleSubmit}>
       <input
@@ -15,7 +14,6 @@ function App() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-
       <button type="submit">Submit</button>
     </form>
   );
